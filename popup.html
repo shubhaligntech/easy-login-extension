@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Input</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+  <div id="container">
+  <div class="title">
+    <img  id="logo" src="images\icon-32.png" alt="pineapple logo" width="20" height="20">
+    <span>itero pineapple login</span>
+  </div>
+  <div class="button-group-top">
+    <div id="status">
+      <span id="payload-status">&nbsp;</span>
+      <span>payload</span>
+      <span id="timer"></span>
+    </div>
+    <div>
+      <button id="swiftLoginBtn" title="swift login" class="round-btn">&gt;.&lt;</button>
+      <button id="debugBtn" title="debug tool" class="round-btn">&lt;/&gt;</button>
+    </div>
+  </div>
+  <textarea id="input-box" placeholder='enter event payload here...'></textarea>
+  <div class="button-group">
+    <button id="saveBtn">save</button>
+    <button id="loginBtn">login</button>
+  </div>
+</div>
+  <script src="popup.js"></script>
+</body>
+</html>

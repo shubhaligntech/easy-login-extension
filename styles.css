@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  border: 5px solid #B7B1F2;
+  background-color: #B7B1F2;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: #F5F5F7;
+  border-radius: 10px;
+
+}
+#logo {
+  transform: rotate(-45deg);
+}
+
+/* Style for the heading */
+.title {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #222222;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#status {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #EEE7DA;
+  border: 1px solid #1a0d04;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+#payload-status {
+  border: 1px solid #020202;
+  border-radius: 50%;
+  padding:0 4.5px;
+  font-size: 10px;
+}
+#payload-status.available {
+  background-color: #33da04;
+}
+#payload-status.expired {
+  background-color: #d30303;
+}
+/* Style for the textarea */
+#input-box {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 70px;
+  padding: 10px;
+  border: 1.5px solid #ffe100;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #FBF3B9;
+}
+
+/* Style for the buttons */
+button {
+  padding: 6px 30px;
+  color: white;
+  background-color: #B7B1F2; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F0A8D0;
+}
+
+/* Style for the button group */
+.button-group-top {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.button-group {
+  display: flex;
+  justify-content:end;
+  gap: 10px;
+}
+
+.round-btn {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 6.5px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+#swiftLoginBtn {
+  background-image: linear-gradient(135deg, #9387ff, #f793dc, #ffb592, #fff18a);
+  color: white;
+}
+#swiftLoginBtn:hover {
+  background-image: linear-gradient(135deg, #B7B1F2, #FDB7EA, #FFDCCC, #FBF3B9);
+}
